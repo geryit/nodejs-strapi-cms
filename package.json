@@ -2,11 +2,12 @@
   "name": "geryit-admin-2",
   "private": true,
   "version": "0.1.0",
-  "description": "geryit2",
+  "description": "geryit3",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "prod": "strapi build && strapi start",
     "strapi": "strapi"
   },
   "devDependencies": {},
