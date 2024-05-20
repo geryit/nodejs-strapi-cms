@@ -17,6 +17,7 @@
   "dependencies": {
     "@strapi/design-system": "^1.18.0",
     "@strapi/plugin-cloud": "4.24.2",
+    "@strapi/plugin-graphql": "^4.24.2",
     "@strapi/plugin-i18n": "4.24.2",
     "@strapi/plugin-users-permissions": "4.24.2",
     "@strapi/strapi": "4.24.2",
@@ -25,11 +26,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "5.3.4",
     "strapi-plugin-vercel-deploy": "^1.4.0",
-    "styled-components": "5.3.3"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "styled-components": "5.3.3",
+    "vercel": "^34.2.0"
   },
   "strapi": {
     "uuid": "2b024878-068b-48ce-a8b0-ea1f71039f3c"
